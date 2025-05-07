@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projects – Sheila Soh</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+        <h1 class="logo">Sheila Soh | Undergraduate Fintech Student</h1>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="resume.pdf" target="_blank">Resume</a></li>
+        </ul>
+        </div>
+    </nav>
+    
+  <section class="projects">
+    <h1>Projects</h1>
+
+    <article class="project">
+      <h2>🎮 Healthy Heroes – Java Game to Promote Healthy Eating in Kids</h2>
+      <p><em>INF1009 Object-Oriented Programming | Role: Entity Manager & UML Designer</em></p>
+      <p><strong>Healthy Heroes</strong> is an educational 2D game built with Java and libGDX. Children learn about nutritious vs unhealthy food through reinforcement gameplay, collecting good food for rewards and avoiding junk food to maintain health.</p>
+      <ul>
+        <li>🛠️ Tech Stack: Java, libGDX, IntelliJ</li>
+        <li>👩‍💼 My role: Implemented <code>EntityManager</code>, contributed to UML & Frenzy Mode logic</li>
+      </ul>
+      <strong>Core Features:</strong>
+      <ul>
+        <li>Frenzy Mode: Activate after 5 healthy items</li>
+        <li>Scoring system with A–F grade ranking</li>
+        <li>Player voice recording and real-time interaction</li>
+      </ul>
+      <strong>OOP & Design Patterns:</strong>
+      <ul>
+        <li>Singleton (SoundManager), Factory (Entity spawning)</li>
+        <li>SceneManager for transitions</li>
+        <li>SOLID principles applied to input/output handling and scene abstraction</li>
+      </ul>
+      <a href="assets/OOP_Project_Report.pdf">📄 Report</a> | <a href="assets/OOP_Project_Presentation.pdf">📍 Slides</a>
+    </article>
+
+    <article class="project">
+      <h2>📊 PaperTrades – Mobile App for Simulated Stock Trading</h2>
+      <p><em>INF2003 Database Systems | Role: Backend & Performance Analyst</em></p>
+      <p><strong>PaperTrades</strong> simulates stock trading with real data, helping students understand portfolio building. Built using Flutter and Node.js with both NoSQL and SQL databases.</p>
+      <ul>
+        <li>🧪 Tech Stack: Flutter, Node.js, MongoDB Atlas, Supabase (PostgreSQL), Azure</li>
+        <li>👩‍💼 My role: NoSQL migration, backend integration, performance benchmarking</li>
+      </ul>
+      <strong>System Highlights:</strong>
+      <ul>
+        <li>Live stock price feed via Finnhub</li>
+        <li>Dockerized backend on Azure</li>
+        <li>Hybrid database architecture: SQL for User, NoSQL for transactions/assets</li>
+      </ul>
+      <strong>Performance Findings:</strong>
+      <ul>
+        <li>Indexed MongoDB matched SQL performance (~1ms vs 0.2ms)</li>
+        <li>Reduced memory usage with optimized aggregation queries</li>
+      </ul>
+      <a href="https://github.com/tehhanyi/INF2003-DB-P1">💻 GitHub</a>
+    </article>
+
+    <article class="project">
+      <h2>🤝 UniMeet – Web Platform for Social Event Engagement</h2>
+      <p><em>INF1005 Web Application Project | Role: Front-End Developer</em></p>
+      <p><strong>UniMeet</strong> is a web application connecting students through events. It addresses student disengagement by encouraging peer interaction and personal initiative.</p>
+      <ul>
+        <li>🛠️ Tech Stack: HTML, CSS, JavaScript, Firebase (Auth, Firestore), Bootstrap</li>
+        <li>👩‍💼 My role: Frontend design (Home Page, Event Page), Carousel, accessibility testing</li>
+      </ul>
+      <strong>Key Features:</strong>
+      <ul>
+        <li>Sign-up/login system with email verification</li>
+        <li>Carousel for featured events, dynamic event displays</li>
+        <li>Admin dashboard with log tracking and event moderation</li>
+      </ul>
+      <strong>Accessibility & Validation:</strong>
+      <ul>
+        <li>Axe DevTools: WCAG compliance</li>
+        <li>W3C HTML Validator: 0 errors</li>
+      </ul>
+      <a href="assets/SheilaSoh_UniMeet_UI.pdf">📄 UI Screens</a>
+    </article>
+  </section>
+</body>
+</html>
